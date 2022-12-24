@@ -1,0 +1,89 @@
+<doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css" />
+		<script src="function.js" ></script>
+		<title>Wyvern Adventure</title>
+	</head>
+	<body>
+		<h1>Wyvern Adventure</h1>
+		<input id="battleText"/>
+		<img id="slashEffect" src="">
+		<img id="fireEffect" src="">
+		<img id="healingEffect" src="">
+		<img id="shieldEffect" src="">
+		<img id="victory" src="confetti.gif">
+		<div id="GameRoom">
+			<table style="float: left">
+				<tr>
+					<th>Score: <input id="scoreBoard" /></th>
+					<th colspan="2" id="locationName">PRESS START</th>
+					<th>Time: <input id="timeCount" /></th>
+				</tr>
+				<tr>
+					<td colspan="4">
+						<img id="backgroundIMG" src="reset-scene.jpg">
+						<img id="monsterIMG" src="">
+					</td>
+				</tr>
+				<tr>
+					<th colspan="2">HP: <input id="hpBar" /></th>
+					<th colspan="2">MP: <input id="mpBar" /></th>
+				</tr>
+				<tr>
+					<td><button type="button" id="attackBtn" onclick=dud()>ATTACK</button></td>
+					<td><button type="button" id="magicBtn" onclick=dud()>FIREBALL</button></td>
+					<td><button type="button" id="healBtn" onclick=dud()>HEAL</button></td>
+					<td><button type="button" id="defendBtn" onclick=dud()>DEFEND</button></td>
+				</tr>
+			</table>
+			<table style="float: left">
+				<tr>
+					<th>Score Board</th>
+				</tr>
+				<tr>
+					<td><input id="actionLog1" /></td>
+				</tr>
+				<tr>
+					<td><input id="actionLog2" /></td>
+				</tr>
+				<tr>
+					<td><input id="actionLog3" /></td>
+				</tr>
+				<tr>
+					<td><input id="actionLog4" /></td>
+				</tr>
+				<tr>
+					<td><input id="actionLog5" /></td>
+				</tr>
+				<tr>
+					<td><input id="actionLog6" /></td>
+				</tr>
+				<tr>
+					<td><input id="actionLog7" /></td>
+				</tr>
+				<tr>
+					<td><input id="actionLog8" /></td>
+				</tr>
+				<tr>
+					<td><input id="actionLog9" /></td>
+				</tr>
+				<tr>
+					<td><input id="actionLog10" /></td>
+				</tr>
+				<tr>
+					<td><input id="actionLog11" /></td>
+				</tr>
+				<tr>
+					<td><input id="actionLog12" /></td>
+				</tr>
+				<tr>
+					<td><input id="actionLog13" /></td>
+				</tr>
+				<tr>
+					<td><button type="button" id="startReset" onclick=gameStart()>START GAME</button></td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>

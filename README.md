@@ -7,3 +7,5 @@ attack, cast fireball, cast heal, or defend. The game ends when time runs out,
 the player dies, or the final boss dies.
 
 *I do NOT own any of the assets used with this project
+
+To play open the main.html file.
