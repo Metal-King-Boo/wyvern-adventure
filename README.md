@@ -1,5 +1,5 @@
 # wyvern-adventure
-Boss Rush game created with Javascript, HTML, and Python
+Boss Rush game created with Javascript, HTML, and CSS
 
 Fight through several areas and try to get to the end within the time limit.
 Each area has 3 enemies and 1 boss to defeat. The player can use their sword to
